@@ -52,7 +52,7 @@ if (-not (scoop list | Select-String -Pattern "^nodels$")) {
 }
 # -------------------------------
 # Install node version manager to able to switch between several version
-# NVM Commands chear sheat - https://gist.github.com/chranderson/b0a02781c232f170db634b40c97ff455
+# NVM Commands cheat sheat - https://gist.github.com/chranderson/b0a02781c232f170db634b40c97ff455
 # -------------------------------
 
 if (-not (scoop list | Select-String -Pattern "^nvm$")) {
@@ -60,3 +60,8 @@ if (-not (scoop list | Select-String -Pattern "^nvm$")) {
 } else {
     Write-Host "Node Version Manager (mvn) is already installed. Skipping installation."
 }
+
+# -------------------------------
+# Installs Latest version of IntelliJ - trial version
+# ------------------------------------
+scoop install idea-ultimate
