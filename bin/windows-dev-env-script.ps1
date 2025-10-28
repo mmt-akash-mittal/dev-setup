@@ -65,3 +65,5 @@ if (-not (scoop list | Select-String -Pattern "^nvm$")) {
 # Installs Latest version of IntelliJ - trial version
 # ------------------------------------
 scoop install idea-ultimate
+
+scoop install gcloud
