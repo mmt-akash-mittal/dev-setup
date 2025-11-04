@@ -64,6 +64,17 @@ if (-not (scoop list | Select-String -Pattern "^nvm$")) {
 # -------------------------------
 # Installs Latest version of IntelliJ - trial version
 # ------------------------------------
-scoop install idea-ultimate
+if (-not (scoop list | Select-String -Pattern "^idea$")) {
+	scoop install idea-ultimate
+} else {
+    Write-Host "Intellij is already installed. Skipping installation."
+}
 
+
+
+if (-not (scoop list | Select-String -Pattern "^gcloud$")) {
 scoop install gcloud
+} else {
+    Write-Host "Google Cloud is already installed. Skipping installation."
+}
+
