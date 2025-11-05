@@ -77,3 +77,11 @@ if (-not (scoop list | Select-String -Pattern "^gcloud$")) {
 } else {
     Write-Host "Google Cloud SDK is already installed. Skipping installation."
 }
+
+# Cloud CTL -sudo access to the cloud - https://github.com/MediaMarktSaturn/cp-tool-cloudctl
+# Installing Docker manually
+# Terraform checckout what needs to be done
+
+
+
+
