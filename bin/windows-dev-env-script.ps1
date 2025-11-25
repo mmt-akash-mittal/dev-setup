@@ -84,4 +84,4 @@ if (-not (scoop list | Select-String -Pattern "^gcloud$")) {
 
 
 
-
+scoop install yarn
