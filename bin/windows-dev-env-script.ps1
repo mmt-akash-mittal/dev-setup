@@ -67,3 +67,5 @@ if (-not (scoop list | Select-String -Pattern "^nvm$")) {
 scoop install idea-ultimate
 
 scoop install gcloud
+
+scoop install yarn
