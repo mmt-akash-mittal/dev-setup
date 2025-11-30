@@ -85,3 +85,6 @@ if (-not (scoop list | Select-String -Pattern "^gcloud$")) {
 
 
 scoop install yarn
+
+
+scoop install mongodb-database-tools
