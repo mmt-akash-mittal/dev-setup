@@ -88,3 +88,7 @@ scoop install yarn
 
 
 scoop install mongodb-database-tools
+
+scoop install postman
+
+scoop install jmeter
