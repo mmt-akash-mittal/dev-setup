@@ -88,6 +88,7 @@ scoop install yarn
 
 
 scoop install mongodb-database-tools
+scoop install mongosh
 
 scoop install postman
 
