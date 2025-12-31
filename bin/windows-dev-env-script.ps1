@@ -88,3 +88,12 @@ scoop install yarn
 
 
 scoop install mongodb-database-tools
+scoop install mongosh
+
+scoop install postman
+
+scoop install jmeter
+
+scoop install insomnia
+
+# install the pluhin manually in the insomnia plugin folder  npm install insomnia-plugin-dotenv 
