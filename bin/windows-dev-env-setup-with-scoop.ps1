@@ -163,6 +163,7 @@ if (-not (scoop list | Select-String -Pattern "^insomnia$")) {
 
 scoop install gh
 
+scoop install filezilla
 # ----------------------------------------
 # Insomnia dotenv plugin (manual step)
 # Why: Allows loading environment variables from .env files in Insomnia.
